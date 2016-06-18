@@ -1,0 +1,51 @@
+// Work Styling
+
+#work
+  margin: 50px 0
+
+.work-section-title
+  margin-bottom: 50px
+
+.work-sample-container
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: stretch
+  flex-wrap: wrap
+
+  .work-card-container
+    margin-bottom: 30px
+    width: 30%
+    -mox-box-shadow: 5px 5px 5px #ccc, -5px 5px 5px #ccc
+    box-shadow: 5px 5px 5px #ccc, -5px 5px 5px #ccc
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+    .work-card-hero
+      height: 200px
+      img
+        height: 100%
+        width: 100%
+        object-fit: cover
+
+    .work-card-content-container
+      padding: 20px
+      .work-title
+        font-family: $font-alt
+        margin-bottom: 10px
+      .work-description
+        margin-bottom: 10px
+      .work-content
+        margin-bottom: 10px
+
+    .work-button-container
+      padding: 20px
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      transition: 0.25s ease-in-out
+      a
+        text-decoration: none
+        font-size: 18px
+        line-height: 18px
