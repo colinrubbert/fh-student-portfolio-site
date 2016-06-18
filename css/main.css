@@ -149,7 +149,7 @@ em, .text-italic {
 }
 
 #work {
-  margin: 50px 0;
+  padding: 50px 0;
 }
 
 .work-section-title {
@@ -213,4 +213,64 @@ em, .text-italic {
   text-decoration: none;
   font-size: 18px;
   line-height: 18px;
+}
+
+.work-sample-container .work-cta {
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.work-sample-container .work-cta a {
+  font-size: 36px;
+  line-height: 36px;
+  text-decoration: none;
+  color: #1893E4;
+  transition: 0.25s ease-in-out;
+}
+
+.work-sample-container .work-cta a:hover {
+  color: #1fc157;
+}
+
+#about {
+  padding: 50px 0;
+  background-color: #ebebeb;
+}
+
+.about-section-title {
+  margin-bottom: 50px;
+}
+
+.about-section-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-section-wrapper .about-face-container {
+  width: 50%;
+}
+
+.about-section-wrapper .about-face-container .about-face {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-image: url("/images/me.jpg");
+}
+
+.about-section-wrapper .about-content {
+  width: 50%;
+}
+
+.about-section-wrapper .about-content p {
+  padding: 10px;
 }
