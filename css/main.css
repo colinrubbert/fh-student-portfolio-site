@@ -64,6 +64,10 @@ em, .text-italic {
   margin: 0 auto;
 }
 
+.section-title {
+  margin-bottom: 50px;
+}
+
 .button {
   border-radius: 3px;
   width: 80px;
@@ -95,6 +99,11 @@ em, .text-italic {
 .secondary-button:hover {
   background-color: #19a84b;
   border-color: #19a84b;
+}
+
+.icon {
+  height: 80px;
+  width: 80px;
 }
 
 #navigation-wrapper {
@@ -262,7 +271,6 @@ em, .text-italic {
   margin-left: 50px;
   border-radius: 50%;
   background-size: cover;
-  background-position: cover;
   background-repeat: no-repeat;
   background-image: url("/images/me.jpg");
 }
@@ -273,4 +281,81 @@ em, .text-italic {
 
 .about-section-wrapper .about-content p {
   padding: 10px;
+}
+
+#testimonial {
+  padding: 50px 0;
+}
+
+.testimonial-section-title {
+  margin-bottom: 50px;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testimonial-wrapper .testimonial-content-container {
+  width: 30%;
+  padding: 20px;
+}
+
+.testimonial-wrapper .testimonial-content-container .testimonial-name {
+  padding: 20px 20px 0 20px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #3a84ff;
+}
+
+.testimonial-wrapper .testimonial-cta {
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.testimonial-wrapper .testimonial-cta a {
+  text-decoration: none;
+  color: #1893E4;
+  font-size: 36px;
+  line-height: 36px;
+  transition: 0.25s ease-in-out;
+}
+
+.testimonial-wrapper .testimonial-cta a:hover {
+  color: #1fc157;
+}
+
+#contact {
+  padding: 50px 0;
+  background-color: #ebebeb;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contact-wrapper a {
+  text-decoration: none;
+}
+
+.contact-wrapper img {
+  border-radius: 50%;
+  transition: 0.25s ease-in-out;
+}
+
+.contact-wrapper img:hover {
+  border-radius: 50%;
+  -moz-box-shadow: 3px 8px 20px #bbb, -3px 8px 20px #bbb;
+  box-shadow: 3px 8px 20px #bbb, -3px 8px 20px #bbb;
+}
+
+.copyright {
+  margin-top: 50px;
 }
