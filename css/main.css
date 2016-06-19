@@ -106,6 +106,13 @@ em, .text-italic {
   width: 80px;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
 #navigation-wrapper {
   background-color: transparent;
 }
@@ -138,6 +145,16 @@ em, .text-italic {
   color: #3a84ff;
 }
 
+@media screen and (max-width: 768px) {
+  .navigation-title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .navigation-links-wrapper {
+    display: none;
+  }
+}
+
 #hero {
   height: 680px;
   width: 100%;
@@ -153,8 +170,21 @@ em, .text-italic {
   padding-top: 130px;
 }
 
-.hero-snippet-container .hero-snippet h3 {
+.hero-snippet-container .hero-snippet {
   font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  #hero {
+    height: 380px;
+  }
+  .hero-snippet-container {
+    padding-top: 80px;
+  }
+  .hero-snippet-container .hero-snippet {
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
 
 #work {
@@ -247,6 +277,18 @@ em, .text-italic {
   color: #1fc157;
 }
 
+@media screen and (max-width: 768px) {
+  .work-sample-container .work-card-container {
+    width: 100%;
+  }
+  .work-sample-container .work-card-container .work-button-container {
+    justify-content: space-around;
+  }
+  .work-sample-container .work-cta {
+    width: 100%;
+  }
+}
+
 #about {
   padding: 50px 0;
   background-color: #ebebeb;
@@ -279,10 +321,29 @@ em, .text-italic {
 
 .about-section-wrapper .about-content {
   width: 50%;
+  padding: 20px;
 }
 
 .about-section-wrapper .about-content p {
   padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-section-wrapper {
+    flex-direction: column;
+  }
+  .about-section-wrapper .about-face-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .about-section-wrapper .about-face-container .about-face {
+    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-section-wrapper .about-content {
+    width: 100%;
+  }
 }
 
 #testimonial {
@@ -332,6 +393,18 @@ em, .text-italic {
   color: #1fc157;
 }
 
+@media screen and (max-width: 768px) {
+  .testimonial-wrapper {
+    flex-direction: column;
+  }
+  .testimonial-wrapper .testimonial-content-container {
+    width: 100%;
+  }
+  .testimonial-wrapper .testimonial-cta {
+    width: 100%;
+  }
+}
+
 #contact {
   padding: 50px 0;
   background-color: #ebebeb;
@@ -360,4 +433,14 @@ em, .text-italic {
 
 .copyright {
   margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-wrapper {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .contact-wrapper a {
+    width: 20%;
+  }
 }

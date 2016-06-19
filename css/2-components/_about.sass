@@ -26,5 +26,25 @@
 
   .about-content
     width: 50%
+    padding: 20px
     p
       padding: 10px
+
+
+// Media Queries
+
+@media screen and (max-width: $tablet-breakpoint)
+  .about-section-wrapper
+    flex-direction: column
+
+    .about-face-container
+      width: 100%
+      margin-bottom: 20px
+      
+      .about-face
+        margin-left: 0
+        margin-left: auto
+        margin-right: auto
+
+    .about-content
+      width: 100%
