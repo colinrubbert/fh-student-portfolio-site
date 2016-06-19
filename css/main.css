@@ -176,6 +176,7 @@ em, .text-italic {
 .work-sample-container .work-card-container {
   margin-bottom: 30px;
   width: 30%;
+  border-radius: 3px;
   -mox-box-shadow: 5px 5px 5px #ccc, -5px 5px 5px #ccc;
   box-shadow: 5px 5px 5px #ccc, -5px 5px 5px #ccc;
   display: flex;
@@ -191,6 +192,7 @@ em, .text-italic {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  border-radius: 3px 3px 0 0;
 }
 
 .work-sample-container .work-card-container .work-card-content-container {
