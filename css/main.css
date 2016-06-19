@@ -149,9 +149,18 @@ em, .text-italic {
   .navigation-title {
     font-size: 36px;
     line-height: 36px;
+    margin: 22px 0;
   }
   .navigation-links-wrapper {
     display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navigation-title {
+    font-size: 30px;
+    line-height: 30px;
+    margin: 25px 0;
   }
 }
 
@@ -184,6 +193,13 @@ em, .text-italic {
   .hero-snippet-container .hero-snippet {
     font-size: 24px;
     line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-snippet-container .hero-snippet {
+    font-size: 18px;
+    line-height: 18px;
   }
 }
 
@@ -346,6 +362,13 @@ em, .text-italic {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .about-section-wrapper .about-face-container .about-face {
+    height: 200px;
+    width: 200px;
+  }
+}
+
 #testimonial {
   padding: 50px 0;
 }
@@ -417,6 +440,8 @@ em, .text-italic {
 }
 
 .contact-wrapper a {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
 }
 
@@ -441,6 +466,16 @@ em, .text-italic {
     justify-content: flex-start;
   }
   .contact-wrapper a {
+    margin-bottom: 10px;
     width: 20%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-wrapper {
+    justify-content: space-around;
+  }
+  .contact-wrapper a {
+    width: 50%;
   }
 }

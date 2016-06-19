@@ -9,6 +9,8 @@
   flex-direction: row
   justify-content: space-around
   a
+    display: flex
+    justify-content: center
     text-decoration: none
   img
     border-radius: 50%
@@ -29,4 +31,11 @@
     flex-wrap: wrap
     justify-content: flex-start
     a
+      margin-bottom: 10px
       width: 20%
+
+@media screen and (max-width: $mobile-breakpoint)
+  .contact-wrapper
+    justify-content: space-around
+    a
+      width: 50%
