@@ -62,9 +62,37 @@ FEWD(folder)
             phone.svg
             twitter.svg
             youtube.svg
+        books.jpg
+        close.svg
+        coffee.jpg
+        community.jpg
         hero.jpg
+        lightning.jpg
         me.jpg
+        woman_contemplation.jpg
     index.html
+```
+### Setting up "main.sass"
+This file will be necessary to import all of our sass files while also be the reference point for our css compiling.
+
+```sass
+// Sass Imports
+
+// 1 - Base Sass
+@import '1-base/fonts'
+@import '1-base/variables'
+@import '1-base/typography'
+@import '1-base/global'
+
+
+// 2 - Components Sass
+@import '2-components/navigation'
+@import '2-components/hero'
+@import '2-components/work'
+@import '2-components/about'
+@import '2-components/testimonial'
+@import '2-components/contact'
+
 ```
 
 ### Setting up the base sass
