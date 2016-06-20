@@ -145,8 +145,69 @@ em, .text-italic {
   color: #3a84ff;
 }
 
+.mobile-navigation-links-wrapper {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  background-color: #f5f5f5;
+  transform: translateY(-100%);
+  transition: 0.25s ease-in-out;
+}
+
+.mobile-navigation-links-wrapper .navigation-links {
+  margin: 60px auto 25px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.mobile-navigation-links-wrapper .navigation-links a {
+  text-align: center;
+  text-decoration: none;
+  color: #1f2024;
+  font-size: 28px;
+  line-height: 28px;
+  padding: 20px;
+  transition: 0.25s ease-in-out;
+}
+
+.mobile-navigation-links-wrapper .navigation-links a:hover {
+  color: #3a84ff;
+}
+
+.mobile-navigation-toggle {
+  display: none;
+  position: relative;
+}
+
+.mobile-navigation-toggle .mobile-menu {
+  display: flex;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 28px 0;
+}
+
+.mobile-navigation-toggle .mobile-menu.is-open {
+  display: none;
+}
+
+.mobile-navigation-toggle .mobile-close {
+  display: none;
+  margin: 28px 0;
+}
+
+.mobile-navigation-toggle .mobile-close img {
+  width: 24px;
+  height: 24px;
+}
+
+.mobile-navigation-toggle .mobile-close.is-open {
+  display: flex;
+}
+
 @media screen and (max-width: 768px) {
-  .navigation-title {
+  .navigation-branding-wrapper .navigation-title {
     font-size: 36px;
     line-height: 36px;
     margin: 22px 0;
@@ -154,10 +215,16 @@ em, .text-italic {
   .navigation-links-wrapper {
     display: none;
   }
+  .mobile-navigation-links-wrapper.is-open {
+    transform: translateY(0%);
+  }
+  .mobile-navigation-toggle {
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 500px) {
-  .navigation-title {
+  .navigation-branding-wrapper .navigation-title {
     font-size: 30px;
     line-height: 30px;
     margin: 25px 0;
