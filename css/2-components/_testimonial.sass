@@ -1,0 +1,50 @@
+// Testimonial Styling
+
+#testimonial
+  padding: 50px 0
+
+.testimonial-section-title
+  margin-bottom: 50px
+
+.testimonial-wrapper
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-between
+
+  .testimonial-content-container
+    width: 30%
+    padding: 20px
+    .testimonial-name
+      padding: 20px 20px 0 20px
+      font-size: 24px
+      line-height: 24px
+      color: $highlight-color
+
+  .testimonial-cta
+    width: 30%
+    padding: 20px
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    a
+      text-decoration: none
+      color: $primary-button
+      font-size: 36px
+      line-height: 36px
+      transition: 0.25s ease-in-out
+      &:hover
+        color: $secondary-button
+
+
+// Media Queries
+
+@media screen and (max-width: $tablet-breakpoint)
+  .testimonial-wrapper
+    flex-direction: column
+
+    .testimonial-content-container
+      width: 100%
+
+    .testimonial-cta
+      width: 100%

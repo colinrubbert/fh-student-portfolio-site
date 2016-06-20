@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
+<g>
+	<circle fill="#009650" cx="75" cy="75" r="75"/>
+	<g>
+		<g>
+			<path fill="#FFFFFF" d="M102.875,120.31c0,2.2-1.8,4-4,4h-47.75c-2.2,0-4-1.8-4-4V29.69c0-2.2,1.8-4,4-4h47.75c2.2,0,4,1.8,4,4
+				V120.31z"/>
+		</g>
+		<g>
+			<path fill="#565656" d="M96.396,100.06c0,2.2-1.8,4-4,4h-35.28c-2.2,0-4-1.8-4-4V37.19c0-2.2,1.8-4,4-4h35.28c2.2,0,4,1.8,4,4
+				V100.06z"/>
+		</g>
+		<circle fill="none" stroke="#3A3A3A" stroke-miterlimit="10" cx="75" cy="114.477" r="5"/>
+		
+			<line fill="none" stroke="#3A3A3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="70" y1="29.643" x2="78.661" y2="29.643"/>
+	</g>
+</g>
+</svg>
